@@ -1,4 +1,5 @@
 #
+#
 #   Stock Ticker Soup
 #   Copyright (c) 2014 Brian Wilcox
 #
@@ -20,10 +21,6 @@
 #   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #   SOFTWARE.
 #
-#   Stock Ticker Soup scrapes the stock tickers belonging to the S&P500 and
-#   generates a csv file of the results
-#
-#   Contact me at http://brianmwilcox.com
 #
 from bs4 import BeautifulSoup
 import requests
