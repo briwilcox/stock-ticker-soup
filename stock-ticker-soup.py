@@ -86,8 +86,8 @@ def main():
     Create a stock ticker object and pass it the base URLs to look for, parse Wikipedia
     for the stock tickers, sort and save the result as a csv file
     """
-    # List of URLs with stock tickers in them up to date as of 07-12-2014
-    urls_with_tickers = ['http://www\.nyse\.com/quote/XNYS\:', 'http://www\.nasdaq\.com/symbol/']
+    # List of URLs with stock tickers in them up to date as of 08-18-2020
+    urls_with_tickers = ['http://www\.nyse\.com/quote/XNYS\:', 'http://www\.nasdaq\.com/symbol/', 'https://www\.nasdaq\.com/symbol/', 'https://www\.nyse\.com/quote/XNYS\:']
     my_scraper = StockScraper(urls_with_tickers)
     my_scraper.get_data()
     my_scraper.scrape_urls()
